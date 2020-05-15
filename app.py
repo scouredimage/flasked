@@ -22,5 +22,5 @@ class MyTest(TestCase):
 
     def test_server_is_up_and_running(self):
         response = self.client.get('/hello/ollie')
-        self.assertEqual(response.data, b'Hello ollie!')
+        self.assertEqual(response.data, 'Hello ollie!')
 
