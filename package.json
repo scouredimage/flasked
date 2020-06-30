@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "rm -fR node_modules/serverless/node_modules/@serverless/enterprise-plugin",
-    "test": "nosetests"
+    "postinstall": "rm -fR node_modules/serverless/node_modules/@serverless/enterprise-plugin"
   },
   "keywords": [],
   "author": "",
