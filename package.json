@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "rm -fR node_modules/serverless/node_modules/@serverless/enterprise-plugin",
-    "test": "nosetests app_test.py"
+    "test": "nosetests"
   },
   "keywords": [],
   "author": "",
