@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nosetests app.py"
+    "test": "nosetests app_test.py"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "devDependencies": {
     "serverless-python-requirements": "^5.1.0",
     "serverless-wsgi": "^1.7.4"
+  },
+  "dependencies": {
+    "@serverless/enterprise-plugin": "file:../../../../serverless/enterprise-plugin/dist",
+    "serverless": "^1.74.1"
   }
 }
