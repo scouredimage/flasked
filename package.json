@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "rm -fR node_modules/serverless/node_modules/@serverless/enterprise-plugin",
     "test": "nosetests app_test.py"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@serverless/enterprise-plugin": "^3.6.15",
+    "serverless": "^1.74.1",
     "serverless-python-requirements": "^5.1.0",
     "serverless-wsgi": "^1.7.4"
   },
-  "dependencies": {
-    "@serverless/enterprise-plugin": "file:../../../../serverless/enterprise-plugin/dist",
-    "serverless": "^1.74.1"
-  }
+  "dependencies": {}
 }
